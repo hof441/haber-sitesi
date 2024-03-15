@@ -18,3 +18,10 @@
         margin-left: 350px;
     }
 } 
+
+
+.ss_buton {
+    border-radius: 50%; /* Yuvarlak alan oluşturur */
+    color: rgb(98, 98, 202); /* Mavi renk */
+    background-color: rgb(27, 119, 55); 
+}
