@@ -25,3 +25,432 @@
     color: rgb(98, 98, 202); /* Mavi renk */
     background-color: rgb(27, 119, 55); 
 }
+
+.vertical-line {
+    border-left: 3px solid #ff0000;
+    height: 50px;
+}
+
+
+
+.manset_img{
+    position: relative;
+    max-height: 50vh;
+    min-height: 50vh;
+    max-width: 20vw;
+    min-width: 20vw; 
+    cursor: pointer; 
+    transition: transform 0.6s ease;
+}
+
+.manset_img:hover{
+    transform: scale(1.1);
+}
+.manset_img img{
+    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
+}
+
+.mansetmetin{
+    width: 28vw;
+    height: 20vh;
+        position: absolute;
+        overflow-wrap: break-word;
+        bottom: -9.5vh;
+        cursor: pointer; 
+        backdrop-filter: blur(5px);
+        padding: 20px;
+       border-radius: 3%;
+       
+}
+
+.mansetmetin1{
+    width: 28vw;
+    margin-top: -35vh;
+        height: 20vh;
+        overflow-wrap: break-word;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 3%;
+        
+        
+}
+.manset_img1{
+    position: relative;
+    max-height: 50vh;
+    min-height: 50vh;
+    max-width: 29vw;
+    min-width: 29vw; 
+    cursor: pointer; 
+    transition: transform 0.6s ease;
+}
+.manset_img1:hover{
+    transform: scale(1.1);
+}
+
+
+.manset_img1 img{
+    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
+}
+
+
+.mansetmetin2{
+    width: 29vw;
+    margin-top: -35vh;
+        height: 20vh;
+        overflow-wrap: break-word;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 3%;
+        
+}
+.manset_img2{
+    position: relative;
+    max-height: 50vh;
+    min-height: 50vh;
+    max-width: 29vw;
+    min-width: 29vw; 
+    cursor: pointer; 
+    transition: transform 0.6s ease;
+}
+
+.manset_img2:hover{
+    transform: scale(1.1);
+}
+
+.manset_img2 img{
+    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 29vw; max-width: 29vw;
+}
+
+
+
+.mansetmetin3{
+    width: 29vw;
+    bottom: -49.7vh;
+        height: 20vh;
+        overflow-wrap: break-word;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 3%;
+        
+}
+.manset_img3{
+    position: relative;
+    max-height: 50vh;
+    min-height: 50vh;
+    max-width: 29vw;
+    min-width: 29vw; 
+    cursor: pointer; 
+    transition: transform 0.6s ease;
+}
+
+.manset_img3:hover{
+    transform: scale(1.1);
+}
+
+.manset_img3 img{
+    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 29vw; max-width: 29vw;
+}
+
+
+
+.manset3{
+    margin-top: -10vh;
+}
+.manset4{
+    margin-top: -10vh;
+}
+
+
+@media screen and (max-width:1000px){
+    .mansetbaslık1{
+        visibility: hidden;
+    }
+} 
+.mansetbaslık1 h1{
+    
+}
+
+.sondakika{
+    min-height: 15vh;
+    max-height: 19vh;
+    max-width: 28vw;
+    min-width:28vw;
+    transition: transform 0.6s ease;
+}
+.sondakika:hover{
+    transform: scale(1.1);
+
+}
+.sondakika_img{
+    min-height: 20vh;
+    max-height: 20vh;
+    max-width: 15vw;
+    min-width: 15vw;
+    
+}
+
+.sondakika_img img{
+    min-width: 15vw; 
+    max-width: 15vw; 
+    min-height: 17vh; 
+    max-height: 17vh;
+}
+.manset_div2{
+    display: none;
+    visibility: hidden;
+}
+.sondakika_b_m{
+    visibility: hidden;
+    margin-top: -8vh;
+}
+
+@media screen and ( max-width:900px){
+
+    .manset_div{
+        display: none;
+        visibility: hidden;
+    }
+    .manset_div2{
+        display: block;
+        visibility: visible;
+        margin-top: -50vh;
+    }
+    .slider-img{
+        min-height: 38vh;
+        max-height: 40vh;
+    }
+    .slider-tüm{
+        max-width: 70vw;
+        margin-left: 10vw;
+    }
+
+    .sondakika_ana{
+        margin-left: 15vw;
+    }
+
+    .sondakika_b_m{
+        visibility: visible;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+
+
+    .sondakika{
+        min-height: 15vh;
+        max-height: 29vh;
+        max-width: 78vw;
+        min-width: 80vw;
+        transition: transform 0.6s ease;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+    .sondakika_metin{
+        min-width: 60vw;
+        margin-left: 5vw;
+    }
+    .sondakika:hover{
+        transform: scale(1.1);
+    
+    }
+    .sondakika_img{
+        min-height: 20vh;
+        max-height: 20vh;
+        max-width: 25vw;
+        min-width: 25vw;
+    }
+    
+    .sondakika_img img{
+        min-width: 25vw; 
+        max-width: 25vw; 
+        min-height: 17vh; 
+        max-height: 17vh;
+    }
+
+    .sondakika_metin1{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: 0vh;
+        margin-left: 5vw;
+    }
+    .sondakika_metin2{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: 0vh;
+        margin-left: 5vw;
+    }
+    .sondakika_metin3{
+        min-width: 60vw;
+        max-width: 60vw;
+        
+        margin-top: 0vh;
+        margin-left: 5vw;
+    }
+} 
+
+@media screen and ( max-width:430px){
+    .manset_div{
+        display: none;
+        visibility: hidden;
+    }
+    .manset_div2{
+        display: block;
+        visibility: visible;
+        margin-top: -15vh;
+    }
+    .slider-img{
+        min-height: 38vh;
+        max-height: 40vh;
+    }
+    .slider-tüm{
+        max-width: 70vw;
+        margin-left: 10vw;
+    }
+
+    .sondakika_ana{
+        margin-left: 10vw;
+    }
+
+    .sondakika_b_m{
+        visibility: visible;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+
+
+    .sondakika{
+        min-height: 15vh;
+        max-height: 29vh;
+        max-width: 88vw;
+        min-width: 90vw;
+        transition: transform 0.6s ease;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+    .sondakika_metin{
+        min-width: 60vw;
+    }
+    .sondakika:hover{
+        transform: scale(1.1);
+    
+    }
+    .sondakika_img{
+        min-height: 20vh;
+        max-height: 20vh;
+        max-width: 25vw;
+        min-width: 25vw;
+    }
+    
+    .sondakika_img img{
+        min-width: 25vw; 
+        max-width: 25vw; 
+        min-height: 22vh; 
+        max-height: 22vh;
+    }
+
+    .sondakika_metin1{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    .sondakika_metin2{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    .sondakika_metin3{
+        min-width: 60vw;
+        max-width: 60vw;
+        
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    
+}
+@media screen and ( max-width:359px){
+    .manset_div{
+        display: none;
+        visibility: hidden;
+    }
+    .manset_div2{
+        display: block;
+        visibility: visible;
+        margin-top: -25vh;
+    }
+    .slider-img{
+        min-height: 38vh;
+        max-height: 40vh;
+    }
+    .slider-tüm{
+        max-width: 70vw;
+        margin-left: 10vw;
+    }
+
+    .sondakika_ana{
+        margin-left: 10vw;
+    }
+
+    .sondakika_b_m{
+        visibility: visible;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+
+
+    .sondakika{
+        min-height: 39vh;
+        max-height: 39vh;
+        max-width: 88vw;
+        min-width: 90vw;
+        transition: transform 0.6s ease;
+        margin-left: -10vw;
+    }
+    .sondakika_metin{
+        min-width: 60vw;
+    }
+    .sondakika:hover{
+        transform: scale(1.1);
+    
+    }
+    .sondakika_img{
+        min-height: 20vh;
+        max-height: 20vh;
+        max-width: 25vw;
+        min-width: 25vw;
+    }
+    
+    .sondakika_img img{
+        min-width: 25vw; 
+        max-width: 25vw; 
+        min-height: 39vh; 
+        max-height: 39vh;
+    }
+
+    .sondakika_metin1{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    .sondakika_metin2{
+        min-width: 60vw;
+        max-width: 60vw;
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    .sondakika_metin3{
+        min-width: 60vw;
+        max-width: 60vw;
+        
+        margin-top: -20vh;
+        margin-left: 30vw;
+    }
+    
+}
