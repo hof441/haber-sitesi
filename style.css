@@ -22,8 +22,8 @@
 
 .ss_buton {
     border-radius: 50%; /* Yuvarlak alan oluşturur */
-    color: rgb(98, 98, 202); /* Mavi renk */
-    background-color: rgb(27, 119, 55); 
+    color: rgb(19, 19, 218); /* Mavi renk */
+    background-color: rgb(209, 27, 27); 
 }
 
 .vertical-line {
@@ -167,11 +167,7 @@
 }
 
 
-@media screen and (max-width:1000px){
-    .mansetbaslık1{
-        visibility: hidden;
-    }
-} 
+ 
 .mansetbaslık1 h1{
     
 }
@@ -290,12 +286,22 @@
     margin-top: 2vh;
     font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
 }
+body, html {
+    overflow-x: hidden;
+}
+
 
 @media screen and (max-width:1400px){
     .mansetbaslık1{
         visibility: hidden;
     }
-
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        }
+        
 
     .sondakika{
         min-height: 25vh;
@@ -348,7 +354,7 @@
         height: 20vh;
             position: absolute;
             overflow-wrap: break-word;
-            bottom: -9.5vh;
+            bottom: -22.5vh;
             cursor: pointer; 
             backdrop-filter: blur(5px);
             padding: 20px;
@@ -358,7 +364,7 @@
     
     .mansetmetin1{
         width: 28vw;
-        margin-top: -35vh;
+        margin-top: -25vh;
             height: 20vh;
             overflow-wrap: break-word;
             position: absolute;
@@ -390,7 +396,7 @@
     
     .mansetmetin2{
         width: 29vw;
-        margin-top: -35vh;
+        margin-top: -17.1vh;
             height: 20vh;
             overflow-wrap: break-word;
             position: absolute;
@@ -421,7 +427,7 @@
     
     .mansetmetin3{
         width: 29vw;
-        bottom: -49.7vh;
+        bottom: -76.7vh;
             height: 20vh;
             overflow-wrap: break-word;
             position: absolute;
@@ -501,10 +507,17 @@
 }
 
 @media screen and ( max-width:900px){
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        }
 
     .manset_div{
-        display: none;
+        
         visibility: hidden;
+        display: none;
     }
     .manset_div2{
         display: block;
@@ -921,5 +934,11 @@
         list-style: none;
         margin-top: 2vh;
         font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .mansetbaslık1{
+        visibility: hidden;
     }
 }
