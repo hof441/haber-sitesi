@@ -19,6 +19,32 @@
     }
 } 
 
+/* Sol yön tuşu */
+.custom-prev {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Sağ yön tuşu */
+.custom-next {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+
+
+.slider-img{
+    object-fit: cover;
+    max-height: 50vh;
+    min-height: 50vh;
+}
+.slider-img2{
+    object-fit: cover;
+    max-height: 55vh;
+    min-height: 55vh;
+    
+}
+
 
 .ss_buton {
     border-radius: 50%; /* Yuvarlak alan oluşturur */
@@ -33,34 +59,33 @@
 
 
 
+.mansetmetin{
+    width: 28vw;
+    margin-top: -35vh;
+        height: 20vh;
+        overflow-wrap: break-word;
+        position: absolute;
+        backdrop-filter: blur(5px);
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 3%;
+        
+        
+}
 .manset_img{
     position: relative;
     max-height: 50vh;
     min-height: 50vh;
-    max-width: 20vw;
-    min-width: 20vw; 
+    max-width: 29vw;
+    min-width: 29vw; 
     cursor: pointer; 
-    transition: transform 0.6s ease;
+    
 }
 
-.manset_img:hover{
-    transform: scale(1.1);
-}
+
+
 .manset_img img{
     max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
-}
-
-.mansetmetin{
-    width: 28vw;
-    height: 20vh;
-        position: absolute;
-        overflow-wrap: break-word;
-        bottom: -9.5vh;
-        cursor: pointer; 
-        backdrop-filter: blur(5px);
-        padding: 20px;
-       border-radius: 3%;
-       
 }
 
 .mansetmetin1{
@@ -83,11 +108,9 @@
     max-width: 29vw;
     min-width: 29vw; 
     cursor: pointer; 
-    transition: transform 0.6s ease;
+    
 }
-.manset_img1:hover{
-    transform: scale(1.1);
-}
+
 
 
 .manset_img1 img{
@@ -114,12 +137,10 @@
     max-width: 29vw;
     min-width: 29vw; 
     cursor: pointer; 
-    transition: transform 0.6s ease;
+    
 }
 
-.manset_img2:hover{
-    transform: scale(1.1);
-}
+
 
 .manset_img2 img{
     max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 29vw; max-width: 29vw;
@@ -128,8 +149,8 @@
 
 
 .mansetmetin3{
-    width: 29vw;
-    bottom: -49.7vh;
+    width: 28vw;
+    margin-top: -35vh;
         height: 20vh;
         overflow-wrap: break-word;
         position: absolute;
@@ -137,6 +158,7 @@
         padding-top: 20px;
         cursor: pointer;
         border-radius: 3%;
+        
         
 }
 .manset_img3{
@@ -146,16 +168,15 @@
     max-width: 29vw;
     min-width: 29vw; 
     cursor: pointer; 
-    transition: transform 0.6s ease;
+    
 }
 
-.manset_img3:hover{
-    transform: scale(1.1);
-}
+
 
 .manset_img3 img{
-    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 29vw; max-width: 29vw;
+    max-height: 35vh; min-height: 35vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
 }
+
 
 
 
@@ -218,6 +239,42 @@
 .card0:hover{
     transform: scale(1.1);
 }
+.manset1{
+    transition: transform 0.6s ease;  
+
+}
+
+.manset1:hover{
+    transform: scale(1.1);
+}
+.manset2{
+    transition: transform 0.6s ease;  
+
+}
+
+.manset2:hover{
+    transform: scale(1.1);
+}
+
+.manset3{
+    transition: transform 0.6s ease;  
+
+}
+
+.manset3:hover{
+    transform: scale(1.1);
+}
+
+.manset4{
+    transition: transform 0.6s ease;  
+
+}
+
+.manset4:hover{
+    transform: scale(1.1);
+}
+
+
 .card1{
     transition: transform 0.6s ease;
     width: 19vw;
@@ -289,11 +346,59 @@
 body, html {
     overflow-x: hidden;
 }
+.sb{
+    margin-left: 8vw;
+}
+.dimg{
+    max-width: 60vw;
+    min-width: 59vw;
+    max-height: 70vh;
+    min-height: 69vh;
+    margin-left: 1vw;
+}
+.detay_metin{
+    margin-left: 1vw;
+    max-width:59vw;
+    min-width: 58vw;
+    padding-top: 3vh;
+    font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
+    
+}
+.dm1{
+    font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+}
+.dm2{
+    font-family: Poppins; color: #6D6D6D; font-weight: 500; font-size: 20px;
+}
+.eb1{
+    margin-right: -20vw;
+}
 
+.eğitim_1{
+    max-height: 40vh;
+}
+.img20{
+    max-height: 30vh;
+    min-height: 29vh;
+    max-width: 35vw;
+    min-width: 30vw;
+    border-radius: 5%;
+}
+.eğitim_metin{
+    font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+    margin-top: 2vh;
+}
 
+.bh1{
+    color: #ff0000;
+}
+
+.bh{
+    background-color: white;
+}
 @media screen and (max-width:1400px){
     .mansetbaslık1{
-        visibility: hidden;
+        visibility: visible;
     }
     * {
         margin: 0;
@@ -332,34 +437,69 @@ body, html {
 
 
 
+
+    .manset1{
+        transition: transform 0.6s ease;  
+    
+    }
+    
+    .manset1:hover{
+        transform: scale(1.1);
+    }
+    .manset2{
+        transition: transform 0.6s ease;  
+    
+    }
+    
+    .manset2:hover{
+        transform: scale(1.1);
+    }
+    
+    .manset3{
+        transition: transform 0.6s ease;  
+    
+    }
+    
+    .manset3:hover{
+        transform: scale(1.1);
+    }
+    
+    .manset4{
+        transition: transform 0.6s ease;  
+    
+    }
+    
+    .manset4:hover{
+        transform: scale(1.1);
+    }
+
+    .mansetmetin{
+        width: 28vw;
+        margin-top: -25vh;
+            height: 20vh;
+            overflow-wrap: break-word;
+            position: absolute;
+            backdrop-filter: blur(5px);
+            padding-top: 20px;
+            cursor: pointer;
+            border-radius: 3%;
+            
+            
+    }
     .manset_img{
         position: relative;
         max-height: 50vh;
         min-height: 50vh;
-        max-width: 20vw;
-        min-width: 20vw; 
+        max-width: 29vw;
+        min-width: 29vw; 
         cursor: pointer; 
-        transition: transform 0.6s ease;
+        
     }
+ 
     
-    .manset_img:hover{
-        transform: scale(1.1);
-    }
+    
     .manset_img img{
         max-height: 45vh; min-height: 45vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
-    }
-    
-    .mansetmetin{
-        width: 28vw;
-        height: 20vh;
-            position: absolute;
-            overflow-wrap: break-word;
-            bottom: -22.5vh;
-            cursor: pointer; 
-            backdrop-filter: blur(5px);
-            padding: 20px;
-           border-radius: 3%;
-           
     }
     
     .mansetmetin1{
@@ -382,12 +522,9 @@ body, html {
         max-width: 29vw;
         min-width: 29vw; 
         cursor: pointer; 
-        transition: transform 0.6s ease;
+        
     }
-    .manset_img1:hover{
-        transform: scale(1.1);
-    }
-    
+  
     
     .manset_img1 img{
         max-height: 45vh; min-height: 45vh; border-radius: 3%; min-width: 28vw; max-width: 28vw;
@@ -413,47 +550,44 @@ body, html {
         max-width: 29vw;
         min-width: 29vw; 
         cursor: pointer; 
-        transition: transform 0.6s ease;
+        
     }
     
-    .manset_img2:hover{
-        transform: scale(1.1);
-    }
-    
+  
     .manset_img2 img{
         max-height: 48vh; min-height: 48vh; border-radius: 3%; min-width: 29vw; max-width: 29vw; margin-top: 5vh;    }
     
     
     
-    .mansetmetin3{
-        width: 29vw;
-        bottom: -76.7vh;
-            height: 20vh;
-            overflow-wrap: break-word;
-            position: absolute;
-            backdrop-filter: blur(5px);
-            padding-top: 20px;
-            cursor: pointer;
-            border-radius: 3%;
+        .mansetmetin3{
+            width: 28vw;
+            margin-top: -20.5vh;
+                height: 20vh;
+                overflow-wrap: break-word;
+                position: absolute;
+                backdrop-filter: blur(5px);
+                padding-top: 20px;
+                cursor: pointer;
+                border-radius: 3%;
+                
+                
+        }
+        .manset_img3{
+            position: relative;
+            max-height: 50vh;
+            min-height: 50vh;
+            max-width: 29vw;
+            min-width: 29vw; 
+            cursor: pointer; 
             
-    }
-    .manset_img3{
-        position: relative;
-        max-height: 50vh;
-        min-height: 50vh;
-        max-width: 29vw;
-        min-width: 29vw; 
-        cursor: pointer; 
-        transition: transform 0.6s ease;
-    }
+        }
     
-    .manset_img3:hover{
-        transform: scale(1.1);
-    }
-    
-    .manset_img3 img{
-        max-height: 48vh; min-height: 48vh; border-radius: 3%; min-width: 29vw; max-width: 29vw; margin-top: 5vh;
-    }
+        
+        
+        .manset_img3 img{
+            max-height: 45vh; min-height: 45vh; border-radius: 3%; min-width: 28vw; max-width: 28vw; margin-top: 5vh;
+        }
+        
     
     
     
@@ -514,6 +648,14 @@ body, html {
         outline: 0;
         }
 
+        .slider-img2{
+            object-fit: cover;
+            max-height: 25vh;
+            min-height: 25vh;
+            max-width: 40vw;
+            min-width: 39vw;
+        }
+
     .manset_div{
         
         visibility: hidden;
@@ -528,6 +670,8 @@ body, html {
         min-height: 38vh;
         max-height: 40vh;
     }
+
+
     .slider-tüm{
         max-width: 70vw;
         margin-left: 10vw;
@@ -541,6 +685,7 @@ body, html {
         visibility: visible;
         margin-left: -10vw;
         margin-top: 5vh;
+        margin-bottom: -10vh;
     }
 
 
@@ -562,17 +707,18 @@ body, html {
     
     }
     .sondakika_img{
-        min-height: 20vh;
-        max-height: 20vh;
+        min-height: 27vh;
+        max-height: 27vh;
         max-width: 25vw;
         min-width: 25vw;
+        margin-top: 15vh;
     }
     
     .sondakika_img img{
-        min-width: 25vw; 
-        max-width: 25vw; 
-        min-height: 17vh; 
-        max-height: 17vh;
+        min-width: 85vw; 
+        max-width: 85vw; 
+        min-height: 25vh; 
+        max-height: 25vh;
     }
 
     .sondakika_metin1{
@@ -668,6 +814,56 @@ body, html {
         margin-top: 2vh;
         font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
     }
+   
+    .sb{
+        margin-left: 5vw;
+    }
+    .mb{
+        min-width: 95vw;
+    }
+    .dimg{
+        max-width: 95vw;
+        min-width: 59vw;
+        max-height: 70vh;
+        min-height: 69vh;
+        margin-left: 1vw;
+    }
+    .detay_metin{
+        margin-left: 1vw;
+        max-width:94vw;
+        min-width: 95vw;
+        padding-top: 3vh;
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
+        
+    }
+    .dm1{
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+    }
+    .dm2{
+        font-family: Poppins; color: #6D6D6D; font-weight: 500; font-size: 20px;
+    }
+
+    .eb1{
+        margin-left: -9vw;
+        margin-top: 15vh;
+    }
+    
+    .eğitim_1{
+        max-height: 40vh;
+        margin-left: -13vw;
+        margin-top: 5vh;
+    }
+    .img20{
+        max-height: 30vh;
+        min-height: 29vh;
+        max-width: 95vw;
+        min-width: 94vw;
+        border-radius: 5%;
+    }
+    .eğitim_metin{
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+        margin-top: 2vh;
+    }
 } 
 
 @media screen and ( max-width:430px){
@@ -684,6 +880,13 @@ body, html {
         min-height: 38vh;
         max-height: 40vh;
     }
+    .slider-img2{
+        object-fit: cover;
+        max-height: 25vh;
+        min-height: 25vh;
+        max-width: 40vw;
+        min-width: 39vw;
+    }
     .slider-tüm{
         max-width: 70vw;
         margin-left: 10vw;
@@ -697,6 +900,7 @@ body, html {
         visibility: visible;
         margin-left: -10vw;
         margin-top: 5vh;
+        margin-bottom: -15vh;
     }
 
 
@@ -717,17 +921,18 @@ body, html {
     
     }
     .sondakika_img{
-        min-height: 20vh;
-        max-height: 20vh;
+        min-height: 27vh;
+        max-height: 27vh;
         max-width: 25vw;
         min-width: 25vw;
+        margin-top: 23vh;
     }
     
     .sondakika_img img{
-        min-width: 25vw; 
-        max-width: 25vw; 
-        min-height: 22vh; 
-        max-height: 22vh;
+        min-width: 95vw; 
+        max-width: 95vw; 
+        min-height: 25vh; 
+        max-height: 25vh;
     }
 
     .sondakika_metin1{
@@ -751,7 +956,7 @@ body, html {
     }
     
     .mansetbaslık2{
-        
+        margin-top: 30vh;
     }
     .kalan_haberler{
         width: 90vw;
@@ -809,6 +1014,61 @@ body, html {
         margin-top: 2vh;
         font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 15px;
     }
+
+
+    .sb{
+        margin-left: 5vw;
+    }
+    .mb{
+        min-width: 95vw;
+        margin-top: 10vh;
+        padding-top: -20vh;
+    }
+    .detay_img{
+        margin-top: -15vh;
+    }
+    .dimg{
+        max-width: 95vw;
+        min-width: 59vw;
+        max-height: 70vh;
+        min-height: 69vh;
+        margin-left: 1vw;
+    }
+    .detay_metin{
+        margin-left: 1vw;
+        max-width:94vw;
+        min-width: 95vw;
+        padding-top: 3vh;
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 400; font-size: 16px;
+        
+    }
+    .dm1{
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+    }
+    .dm2{
+        font-family: Poppins; color: #6D6D6D; font-weight: 500; font-size: 20px;
+    }
+    .eb1{
+        margin-left: -9vw;
+        margin-top: 25vh;
+    }
+    
+    .eğitim_1{
+        max-height: 40vh;
+        margin-left: -10vw;
+        margin-top: 5vh;
+    }
+    .img20{
+        max-height: 30vh;
+        min-height: 29vh;
+        max-width: 95vw;
+        min-width: 94vw;
+        border-radius: 5%;
+    }
+    .eğitim_metin{
+        font-family: Poppins; color: rgb(0, 0, 0); font-weight: 500; font-size: 20px;
+        margin-top: 2vh;
+    }
 }
 @media screen and ( max-width:359px){
     .manset_div{
@@ -823,6 +1083,13 @@ body, html {
     .slider-img{
         min-height: 38vh;
         max-height: 40vh;
+    }
+    .slider-img2{
+        object-fit: cover;
+        max-height: 25vh;
+        min-height: 25vh;
+        max-width: 40vw;
+        min-width: 39vw;
     }
     .slider-tüm{
         max-width: 70vw;
